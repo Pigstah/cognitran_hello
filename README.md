@@ -2,7 +2,7 @@
 
 ## Brief
 
-__Docker image: cognitrandocker/hello
+_Docker image: cognitrandocker/hello
 
 Scenario:
 The above image should return "hello" when the below is run:
@@ -13,7 +13,7 @@ It appears to be broken, using this docker image as a base, create a Dockerfile 
 
 The contents of the script that should return "hello" must be left unedited and the "docker run" command must be the same on the fixed image.
 
-Bring or submit the working Dockerfile once completed.__
+Bring or submit the working Dockerfile once completed._
 
 ## Thought Process
 
@@ -23,4 +23,4 @@ Bring or submit the working Dockerfile once completed.__
 
 - I then added "ENV ABC=hello" to the dockerfile, so that it would assign the viariable "ABC" to "hello".
 
-- Finally I added "CMD" to the docker to run the script
+- Finally I added "CMD" to the Dockerfile to run the script
